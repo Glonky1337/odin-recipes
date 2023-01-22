@@ -1,22 +1,63 @@
 body {
     font-family: "Courier New", "Arial", sans-serif;
 }
+html {
+    background-color: #111827;
+    color: white;
+}
+
+/* Global Properties Above */
 
 .pageheader {
     text-align: center;
-    color: rgb(0, 0, 0);
     font-weight: 800;
     font-size: 50px;
+}
+
+.pageheader.recipe {
+    text-decoration: underline;
 }
 
 .image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
 }
 
-.image.index {
-    width: 25%;
+.button {
+    background-color: #f16232;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.subheader {
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.recipe-description {
+    max-width: 30%;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list {
+    max-width: 30%;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
